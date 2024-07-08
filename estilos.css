@@ -27,9 +27,10 @@ header{
     align-items: center;
     background-color: var(--bg-color);
     font-size: var(--text-size);
-    position: sticky;
-    top:0;
-    z-index:100;
+    position: fixed;
+    width: 100%;
+    top:0;    
+    z-index:1000;
 }
 
 a{
@@ -88,7 +89,7 @@ ul{
 
 
 .Home__logos .logo{
-    width: 15rem;
+    width: 15vw;
 }
 
 .logo__fijo {
@@ -154,34 +155,34 @@ ul{
 
 .NF__tittle--t1{
     position: absolute;
-    right: 19rem;
+    right: 20vw;
     top: 0;
     margin: 0.5rem;
-    font-size: 3.5vw;
+    font-size: 5vw;
     letter-spacing: -4px;
 }
 .NF__tittle--t2{
     position: absolute;
-    left:15rem;
-    bottom: 20rem;
+    left:12vw;
+    bottom: 23.5vw;
     margin: 1rem;
-    font-size: 3.5vw;
+    font-size: 5vw;
     letter-spacing: -4px;
 }
 
 .NF__tittle--t3{
     position: absolute;
-    right: 7rem;
-    top:30rem;
+    right: 7vw;
+    top:30vw;
     margin: 0rem;
-    font-size: 3.5vw;
+    font-size: 5vw;
     letter-spacing: -4px;
 }
 
 .NF__texto--historia{
     position: absolute;
-    right: 50rem;
-    top: 5rem; 
+    right: 45vw;
+    top: 5vw; 
     width: 40rem;
     color: white;
     padding: 1rem;
@@ -190,7 +191,7 @@ ul{
 
 .NF__texto--nathan{
     position: absolute;
-    left: 25vw;
+    left: 30vw;
     bottom: 10vw; 
     width: 40rem;
     color: white;

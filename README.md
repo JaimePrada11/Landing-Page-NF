@@ -37,6 +37,8 @@ El proyecto está organizado en las siguientes secciones principales:
 
 ## Diseño Inicial
 
-El diseño inicial de la página fue realizado en Canva. Las imágenes y otros recursos multimedia utilizados están almacenados en la carpeta '/Multimedia'.
+El diseño inicial de la página fue realizado en Canva. Las imágenes y otros recursos multimedia utilizados están almacenados en la carpeta (/Multimedia/).
 
+![Canva](/Multimedia/Album%20Hope.jpg)
 
+[Diseño](https://www.canva.com/design/DAGJ8k81tGk/fPMWEgaPi1puTSQhC8csMQ/edit)

@@ -16,6 +16,8 @@ html, body {
     background-color: var(--bg-color);
     color: var(--text-color);
     background-origin: border-box;
+    overflow-x: hidden;
+
     
 }
 h1 {
@@ -25,7 +27,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--bg-color);
+    background-color: rgb(2, 1, 5, 0.5);
     font-size: var(--text-size);
     position: fixed;
     width: 100%;
@@ -84,9 +86,8 @@ ul{
     justify-content: center;
     align-items: center;
     position: relative;
-    overflow: hidden;
+    left: 7vw;
 }
-
 
 .Home__logos .logo{
     width: 15vw;
@@ -125,16 +126,64 @@ ul{
 }
 
 .NF{
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;    
     width: 100vw;
-    background-color: black;
     position: relative;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05), #000000);
+    animation:Change-color 6s ease infinite;
+    background-size: 400% 400%;
 }
 
+@keyframes Change-color{
+    0% {
+        background-position: 0% 0%;
+    }
+    10% {
+        background-position: 20% 30%;
+    }
+    20% {
+        background-position: 50% 20%;
+    }
+    30% {
+        background-position: 80% 40%;
+    }
+    40% {
+        background-position: 40% 70%;
+    }
+    50% {
+        background-position: 60% 90%;
+    }
+    60% {
+        background-position: 20% 80%;
+    }
+    70% {
+        background-position: 80% 20%;
+    }
+    80% {
+        background-position: 30% 50%;
+    }
+    90% {
+        background-position: 70% 30%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
 .NF__imagen{
     max-width: 100%;
     width: 25%;
 }
+
+.NF__section-a, .NF__section-b {
+    display: flex;
+    min-height: auto;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .imagen__bio{
     position: absolute;
@@ -158,30 +207,30 @@ ul{
     right: 20vw;
     top: 0;
     margin: 0.5rem;
-    font-size: 5vw;
+    font-size: 4.2vw;
     letter-spacing: -4px;
 }
 .NF__tittle--t2{
     position: absolute;
-    left:12vw;
-    bottom: 23.5vw;
+    right: 7vw;
+    top:28vw;
     margin: 1rem;
-    font-size: 5vw;
+    font-size: 4.2vw;
     letter-spacing: -4px;
 }
 
 .NF__tittle--t3{
     position: absolute;
-    right: 7vw;
-    top:30vw;
+    right: 70vw;
+    top:18vw;
     margin: 0rem;
-    font-size: 5vw;
+    font-size: 4.2vw;
     letter-spacing: -4px;
 }
 
 .NF__texto--historia{
     position: absolute;
-    right: 45vw;
+    right: 47vw;
     top: 5vw; 
     width: 40rem;
     color: white;
@@ -191,18 +240,20 @@ ul{
 
 .NF__texto--nathan{
     position: absolute;
-    left: 30vw;
-    bottom: 10vw; 
-    width: 40rem;
+    left: 23vw;
+    bottom: 10vh; 
+    width: 35%;
     color: white;
     padding: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    z-index: 2;
 }
 
 .Hope{
     display: flex;
     justify-content: space-around;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     width: 100vw;
     background-color: #5A6A6A;
     padding: 2rem 0;
@@ -225,14 +276,15 @@ ul{
     margin: 4rem 0;
     align-items: center;
     text-align: center;
-    
 }
 
 .Hope__texto a {
     color: #859B99;
     padding: 0.5rem;
     border: 1px solid #859B99;
-    transition-duration: 2s;
+    transition-duration: 1.2s;
+    border-radius: 15px;
+
 }
 
 .Hope__texto a:hover {
@@ -263,17 +315,14 @@ ul{
 
 .Album{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     background-color: #262626;
     padding: 0;
 
-}
-.Album h1{
-    margin: 0;
 }
 
 .Album__list{
@@ -281,8 +330,8 @@ ul{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center; 
-    flex-wrap: wrap;
- 
+    width: 100%;
+    max-width: 90vw;
 }
 
 .Album__item {
@@ -293,9 +342,10 @@ ul{
 }
 
 .Album__img, .Album__img--cover {
-    width: 15vw;
+    max-width: 100%;
+    width: 20rem;
+    min-width: 15rem;
     height: auto;
-    display: block;
     border-radius: 15px;
 }
 
@@ -306,6 +356,7 @@ ul{
     width: 100%;
     height: 100%;
     display: none;
+    transition: opacity 0.5s ease;
 }
 
 .Album__item:hover .Album__img--cover {
@@ -320,13 +371,16 @@ ul{
 
 .Store{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
-    background-color: #D4D3CE;
+    padding-top: 1.5vw;
+    text-transform: uppercase;
+    background: radial-gradient(circle,#CECCC8, #D4D3CE);
+
 }
 
 .Store__list{
@@ -336,9 +390,6 @@ ul{
     justify-content: center;  
 }
 
-.Store h1{
-    margin: 0;
-}
 .Store__item {
     position: relative;
     cursor: pointer;
@@ -346,8 +397,9 @@ ul{
 }
 
 .Store__img, .Store__img--cover {
-    max-width: 80%;
-    width: 20vw;
+    max-width: 100%;
+    width: 25rem;
+    min-width: 20rem;
     height: auto;
     display: block;
 }
@@ -389,7 +441,8 @@ ul{
 
 .Tour{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -399,21 +452,24 @@ ul{
 
 .Tour__texto h1{
     margin: 0;
+    font-size: 5.3vw;
 }
 .Tour__texto p {
-    font-size: 1.5vw;
-    width: 40vw;
+    font-size: 2vw;
+    width: 50%;
     margin: auto;
 }
 
 .Tour__texto h2{
     margin: 2rem;
+    font-size: 2.5vw;
+
 }
 
 .Tour__texto a{
     color: #859B99;
     margin: 1rem;
-    padding: 1rem;
+    padding: 0.5rem;
     border: 1px solid #859B99;
     border-radius: 10px;
     transition-duration: 1s;
@@ -424,20 +480,15 @@ ul{
     color: white;
 }
 
-.registro {
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    width: 100%;
-}
 
 .registro{
     max-width: 40.75rem;
-    margin: 0 auto;
+    width: 100%;
+    margin: 4rem auto;
     padding: 0.938rem;
-    border-radius: 5px;
+    border-radius: 8px;
     box-shadow: 0 3px 10px #859B99 ;
+    
 }
 
 .registro label {
@@ -446,36 +497,31 @@ ul{
 }
   
 
-  .registro .input-field {
+.registro .input-field {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 5px;
     border: none;
-    border: 2px outset var(--primary-color);
-    font-size: 0.875rem;
+    font-size: 1.1vw;
     outline: none;
 }
 
 .input-field::placeholder {
     padding: 0.5rem;
-    color: var(--primary-color);
+    color: var(--text-color);
 }
 
 .submit-btn {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border: 2px solid var(--primary-color);
     border-radius: 5px;
-    font-size: 1rem;
-    font-weight: var(--bold-font);
-    transition: var(--transition);
+    font-size: 1vw;
 }
 
 .submit-btn:hover {
     background-color: #D4D3CE ;
-    border: 2px solid gray;
     cursor: pointer;
 }
 
@@ -487,6 +533,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 1.2vw;
 }
 
 .redes {
@@ -515,7 +562,7 @@ footer{
     display: none;
 }
 
-@media (max-width:780px){
+@media (max-width:780px) or (min-width:2160px){
     main, header, footer{
         display: none;
     }
@@ -540,5 +587,6 @@ footer{
         border-radius: 25px;
         background-color: #222D2C;
         opacity: 0.5;
+        font-size: 7vw;
     }
 }

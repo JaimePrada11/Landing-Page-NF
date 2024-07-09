@@ -24,7 +24,7 @@ main{
 
 .album{
     max-width: 80%;
-    width: 30vw;
+    width: 30rem;
     border-radius: 25px;
     margin-top: 2.5rem;
     box-shadow: 0 0 15px 5px rgba(90, 106, 106, 0.9);
@@ -43,7 +43,8 @@ main{
 }
 
 ul{
-    width: 20vw;
+    width: 20rem;
+    max-width: 40%;
     list-style: none;
     position: relative;
     overflow: hidden;

@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
-
 :root{
     --text-color: #859B99;
     --bg-color:#020101;
     --a-color: white;
-    --text-size: 1.5rem
+    --text-size: 1.5vw;
 }
 
 html, body {
@@ -87,6 +86,8 @@ ul{
     align-items: center;
     position: relative;
     left: 7vw;
+    margin-left: 5vw;
+
 }
 
 .Home__logos .logo{
@@ -172,7 +173,7 @@ ul{
 }
 .NF__imagen{
     max-width: 100%;
-    width: 25%;
+    width: 30%;
 }
 
 .NF__section-a, .NF__section-b {
@@ -199,6 +200,8 @@ ul{
     left: 0;
     bottom: 0;
     z-index: 1;
+    min-width: 25%;
+
 }
 
 
@@ -221,8 +224,8 @@ ul{
 
 .NF__tittle--t3{
     position: absolute;
-    right: 70vw;
-    top:18vw;
+    left: 20%;
+    bottom: 45%;
     margin: 0rem;
     font-size: 4.2vw;
     letter-spacing: -4px;
@@ -230,9 +233,11 @@ ul{
 
 .NF__texto--historia{
     position: absolute;
-    right: 47vw;
+    right: 40vw;
     top: 5vw; 
-    width: 40rem;
+    min-width: 40%;
+    width: 70%;
+    max-width: 50%;
     color: white;
     padding: 1rem;
     font-size: 1.3rem;
@@ -240,9 +245,11 @@ ul{
 
 .NF__texto--nathan{
     position: absolute;
-    left: 23vw;
-    bottom: 10vh; 
-    width: 35%;
+    left: 23%;
+    bottom: 15%; 
+    min-width: 40%;
+    width: 70%;
+    max-width: 50%;
     color: white;
     padding: 1rem;
     font-size: 1.3rem;
@@ -590,3 +597,5 @@ footer{
         font-size: 7vw;
     }
 }
+
+

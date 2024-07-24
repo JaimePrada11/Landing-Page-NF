@@ -17,7 +17,7 @@ Esta landing page está dedicada al rapero NF (Nathan John Feuerstein), y está 
 | 7 | [Diseño](#diseño)|
 | 8 | [Archivos del Proyecto](#archivos-del-proyecto) |
 | 9 | [Fuentes y Recursos](#fuentes-y-recursos)|
-| 10 | [#Autor](#autor)|
+| 10 | [Autor](#autor)|
 | 11 | [Licencia](#licencia)|
 
 
@@ -29,7 +29,6 @@ Esta landing page está dedicada al rapero NF (Nathan John Feuerstein), y está 
   
 > [!TIP]
 > **Live Server Extension:** Esta extensión para Visual Studio Code permite ver los cambios en tiempo real. Instálala desde la pestaña de extensiones de Visual Studio Code.
-
 
 
 ### Requisitos de Instalación

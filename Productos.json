@@ -1,0 +1,154 @@
+{
+    "Albumes": [
+        {
+            "ID": 1,
+            "Nombre": "HOPE",
+            "Imagen":1,
+            "Precio": 10,
+            "Tipo": "CD"
+
+        }, 
+        {
+            "ID": 2,
+            "Nombre": "CLOUDS (THE MIXTAPE)",
+            "Imagen":1,
+            "Precio": 10,
+            "Tipo": "CD"
+
+        },
+        {
+            "ID": 3,
+            "Nombre": "MANSION",
+            "Imagen":1,
+            "Precio": 10,
+            "Tipo": "CD"
+
+        },
+        {
+            "ID": 4,
+            "Nombre": "THE SEARCH",
+            "Imagen":1,
+            "Precio": 10,
+            "Tipo": "CD"
+
+        },
+        {
+            "ID": 5,
+            "Nombre": "HOPE",
+            "Imagen":1,
+            "Precio": 10,
+            "Tipo": "VINYL"
+
+        },
+        {
+            "ID": 6,
+            "Nombre": "PERCEPTION",
+            "Imagen":1,
+            "Precio": 10,
+            "Tipo": "VINYL"
+
+        }
+    ],
+    "Merchandising":[
+        {
+            "ID": 1,
+            "Nombre": "BLACK BLUR CREWNER",
+            "Imagen":1,
+            "Precio": 60,
+            "Categoria": "Sweatshirts",
+            "Color": "Black", 
+            "Talla": "XL"
+
+        }, 
+        {
+            "ID": 2,
+            "Nombre": "LOST SOUL",
+            "Imagen":1,
+            "Precio": 50,
+            "Tipo": "Sweatshirts",
+            "Color": "White",
+            "Talla": "L"
+
+        },
+        {
+            "ID": 3,
+            "Nombre": "HOPE HOODIE",
+            "Imagen":1,
+            "Precio": 60,
+            "Tipo": "Sweatshirts",
+            "Color": "Black",
+            "Talla": "L"
+
+        },
+        {
+            "ID": 4,
+            "Nombre": "HOPE TOUR 2024 HOODIE",
+            "Imagen":1,
+            "Precio": 55,
+            "Tipo": "Sweatshirts",
+            "Color": "Black",
+            "Talla": "XL"
+
+        },
+        {
+            "ID": 5,
+            "Nombre": "CEMENT RUNNING ",
+            "Imagen":1,
+            "Precio": 35,
+            "Tipo": "T-Shirts",
+            "Color": "White",
+            "Talla": "s"
+
+        },
+        {
+            "ID": 6,
+            "Nombre": "VINTAGE LOST SOUL",
+            "Imagen":1,
+            "Precio": 40,
+            "Tipo": "T-Shirts",
+            "Color": "Black",
+            "Talla": "L"
+
+        },
+        {
+            "ID": 7,
+            "Nombre": "REAL DAD",
+            "Imagen":1,
+            "Precio": 30,
+            "Tipo": "Hats",
+            "Color": "Black",
+            "Talla": "N/A"
+
+        },
+        {
+            "ID": 8,
+            "Nombre": "NF SNAPBACK",
+            "Imagen":1,
+            "Precio": 35,
+            "Tipo": "Hats",
+            "Color": "Black",
+            "Talla": "N/A"
+
+        },
+        {
+            "ID": 9,
+            "Nombre": "NF DAD HAT",
+            "Imagen":1,
+            "Precio": 30,
+            "Tipo": "Hats",
+            "Color": "Brown",
+            "Talla": "N/A"
+
+        },
+        {
+            "ID": 10,
+            "Nombre": "NF HAT",
+            "Imagen":1,
+            "Precio": 30,
+            "Tipo": "Hats",
+            "Color": "White",
+            "Talla": "N/A"
+
+        }
+    ]
+}

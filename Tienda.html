@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NF Store Shop</title>
+    <link rel="stylesheet" href="./Tienda.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="./Menu.css">
+    <link rel="stylesheet" href="./catalogo.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo"><img class="header__logo" src="./Multimedia/Logo NF.png" alt="Logo NF"></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#Home" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#NF" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>albums</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#Album" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Collections</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#Store" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>THE ALBUM HOPE</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#Tour" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>FAQS</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-large-line"></i>
+                </div>
+
+
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="Home">
+            <img src="./Multimedia/Footer NF sentado.jpg" alt="">
+            <div class="contenido">
+                <h1>NFREALMUSIC</h1>
+                <h2>THE OFFICIAL NF STORE</h2>
+                <a class="button"> SHOP NOW</a>
+            </div>
+        </section>
+        <section>
+
+        </section>
+        <section class="lanzamientos">
+            <h1>Productos</h1>
+            <div class="filtro">
+                <select id="filter-type">
+                <option value="">Todos</option>
+                <option value="CD">CD</option>
+                <option value="VINYL">VINYL</option>
+                <option value="Sweatshirts">Sweatshirts</option>
+                <option value="T-Shirts">T-Shirts</option>
+                <option value="Hats">Hats</option>
+            </select>
+            <input type="number" id="filter-price" placeholder="Max Price" />
+            <button id="filter-button">Filtrar</button>
+            </div>
+            
+            <div id="products-container"></div>
+            <a href="./catalogo.html" class="button">BUY</button>
+        </section>
+
+
+        <section class="promocion">
+            <img src="./Multimedia/Album Hope.jpg" alt="">
+            <div class="promocion-texto">
+                <h1>OFFICIAL MERCHANDISE</h1>
+                <p>the only place you can get OFFICIAL NF merchandise! Shop our selection of sweatshirts, t-shirts, hats
+                    and MORE - hand picked by NF himself.
+                </p>
+            </div>
+        </section>
+
+        
+
+    </main>
+
+    <footer>
+        <div class="redes">
+            <a target="_blank" href="https://www.facebook.com/nfrealmusic"><i class="fa-brands fa-facebook"></i></a>
+            <a target="_blank" href="https://www.instagram.com/nfrealmusic/"><i class="fa-brands fa-instagram"></i></a>
+            <a target="_blank" href="https://x.com/nfrealmusic"><i class="fa-brands fa-x-twitter"></i></a>
+            <a target="_blank" href="https://www.youtube.com/channel/UCoRR6OLuIZ2-5VxtnQIaN2w"><i
+                    class="fa-brands fa-youtube"></i></a>
+            <a target="_blank" href="https://open.spotify.com/intl-es/artist/6fOMl44jA4Sp5b9PpYCkzz"><i
+                    class="fa-brands fa-spotify"></i></a>
+            <a target="_blank" href="https://music.apple.com/us/artist/nf/898094630"><i
+                    class="fa-brands fa-itunes"></i></a>
+            <a target="_blank" href="https://music.amazon.com/artists/B00FPGTO3I/nf"><i
+                    class="fa-brands fa-amazon"></i></a>
+        </div>
+        <div class="copyright">
+            <img src="/Multimedia/capitol_logo.png" alt="capitol_logo">
+            <p>© 2024 CAPITOL</p>
+        </div>
+
+    </footer>
+
+    <script src="./productos.js">
+
+
+    </script>
+</body>
+
+</html>

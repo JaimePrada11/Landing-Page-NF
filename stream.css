@@ -44,7 +44,7 @@ main{
 
 ul{
     width: 20rem;
-    max-width: 40%;
+    max-width: 22rem;
     list-style: none;
     position: relative;
     overflow: hidden;
@@ -53,6 +53,8 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto;
+    margin-bottom: 2vw;
 }
 
 li{
@@ -70,7 +72,7 @@ ul img{
 
 }
 
-@media (max-width:780px) {
+@media (max-width:330px) {
     main{
         display: none;
     }

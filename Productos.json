@@ -1,154 +1,162 @@
-{
-    "Albumes": [
-        {
-            "ID": 1,
-            "Nombre": "HOPE",
-            "Imagen":1,
-            "Precio": 10,
-            "Tipo": "CD"
-
-        }, 
-        {
-            "ID": 2,
-            "Nombre": "CLOUDS (THE MIXTAPE)",
-            "Imagen":1,
-            "Precio": 10,
-            "Tipo": "CD"
-
-        },
-        {
-            "ID": 3,
-            "Nombre": "MANSION",
-            "Imagen":1,
-            "Precio": 10,
-            "Tipo": "CD"
-
-        },
-        {
-            "ID": 4,
-            "Nombre": "THE SEARCH",
-            "Imagen":1,
-            "Precio": 10,
-            "Tipo": "CD"
-
-        },
-        {
-            "ID": 5,
-            "Nombre": "HOPE",
-            "Imagen":1,
-            "Precio": 10,
-            "Tipo": "VINYL"
-
-        },
-        {
-            "ID": 6,
-            "Nombre": "PERCEPTION",
-            "Imagen":1,
-            "Precio": 10,
-            "Tipo": "VINYL"
-
-        }
-    ],
-    "Merchandising":[
-        {
-            "ID": 1,
-            "Nombre": "BLACK BLUR CREWNER",
-            "Imagen":1,
-            "Precio": 60,
-            "Categoria": "Sweatshirts",
-            "Color": "Black", 
-            "Talla": "XL"
-
-        }, 
-        {
-            "ID": 2,
-            "Nombre": "LOST SOUL",
-            "Imagen":1,
-            "Precio": 50,
-            "Tipo": "Sweatshirts",
-            "Color": "White",
-            "Talla": "L"
-
-        },
-        {
-            "ID": 3,
-            "Nombre": "HOPE HOODIE",
-            "Imagen":1,
-            "Precio": 60,
-            "Tipo": "Sweatshirts",
-            "Color": "Black",
-            "Talla": "L"
-
-        },
-        {
-            "ID": 4,
-            "Nombre": "HOPE TOUR 2024 HOODIE",
-            "Imagen":1,
-            "Precio": 55,
-            "Tipo": "Sweatshirts",
-            "Color": "Black",
-            "Talla": "XL"
-
-        },
-        {
-            "ID": 5,
-            "Nombre": "CEMENT RUNNING ",
-            "Imagen":1,
-            "Precio": 35,
-            "Tipo": "T-Shirts",
-            "Color": "White",
-            "Talla": "s"
-
-        },
-        {
-            "ID": 6,
-            "Nombre": "VINTAGE LOST SOUL",
-            "Imagen":1,
-            "Precio": 40,
-            "Tipo": "T-Shirts",
-            "Color": "Black",
-            "Talla": "L"
-
-        },
-        {
-            "ID": 7,
-            "Nombre": "REAL DAD",
-            "Imagen":1,
-            "Precio": 30,
-            "Tipo": "Hats",
-            "Color": "Black",
-            "Talla": "N/A"
-
-        },
-        {
-            "ID": 8,
-            "Nombre": "NF SNAPBACK",
-            "Imagen":1,
-            "Precio": 35,
-            "Tipo": "Hats",
-            "Color": "Black",
-            "Talla": "N/A"
-
-        },
-        {
-            "ID": 9,
-            "Nombre": "NF DAD HAT",
-            "Imagen":1,
-            "Precio": 30,
-            "Tipo": "Hats",
-            "Color": "Brown",
-            "Talla": "N/A"
-
-        },
-        {
-            "ID": 10,
-            "Nombre": "NF HAT",
-            "Imagen":1,
-            "Precio": 30,
-            "Tipo": "Hats",
-            "Color": "White",
-            "Talla": "N/A"
-
-        }
-    ]
-}
+[
+    {
+        "ID": 1,
+        "Nombre": "HOPE",
+        "Imagen": "https://nfrealmusicmerch.com/cdn/shop/products/NF_ProductMockupCD_590x.png?v=1681781883",
+        "Precio": 10,
+        "Tipo": "CD"
+    },
+    {
+        "ID": 2,
+        "Nombre": "CLOUDS (THE MIXTAPE)",
+        "Imagen": "https://nfrealmusicmerch.com/cdn/shop/files/Clouds_NF_JEWEL_Mockup_WithCD_800x.png?v=1682361687",
+        "Precio": 10,
+        "Tipo": "CD"
+    },
+    {
+        "ID": 3,
+        "Nombre": "MANSION",
+        "Imagen": "https://nfrealmusicmerch.com/cdn/shop/products/NF_Mansion_Jewel_FRONT_590x.jpg?v=1511963076",
+        "Precio": 10,
+        "Tipo": "CD"
+    },
+    {
+        "ID": 4,
+        "Nombre": "THE SEARCH",
+        "Imagen": "https://nfrealmusicmerch.com/cdn/shop/files/Search_NF_JEWEL_Mockup_WithCD_590x.png?v=1682361760",
+        "Precio": 10,
+        "Tipo": "CD"
+    },
+    {
+        "ID": 5,
+        "Nombre": "HOPE",
+        "Imagen": "https://nfrealmusicmerch.com/cdn/shop/products/NF_ProductMockupVinyl-Black_590x.png?v=1681782126",
+        "Precio": 20,
+        "Tipo": "VINYL"
+    },
+    {
+        "ID": 6,
+        "Nombre": "PERCEPTION",
+        "Imagen": "https://nfrealmusicmerch.com/cdn/shop/files/PerceptionVinyl_Mockup_Smaller_590x.png?v=1682387233",
+        "Precio": 20,
+        "Tipo": "VINYL"
+    },
+    {
+        "ID": 7,
+        "Nombre": "THE SEARCH",
+        "Imagen": "https://nfrealmusicmerch.com/cdn/shop/files/Unknown_640x.png?v=1721066647",
+        "Precio": 20,
+        "Tipo": "VINYL"
+    },
+    {
+        "ID": 8,
+        "Nombre": "CLOUDS (THE MIXTAPE)",
+        "Imagen": "https://nfrealmusicmerch.com/cdn/shop/files/CloudsVinyl_Mockup_Smaller_2000x.png?v=1682387203",
+        "Precio": 20,
+        "Tipo": "VINYL"
+    },
+    {
+        "ID": 9,
+        "Nombre": "THERAPY SESSION",
+        "Imagen": "https://nfrealmusicmerch.com/cdn/shop/products/NF_TherapySession_Jewel_FRONT_1000x.jpg?v=1515098972",
+        "Precio": 10,
+        "Tipo": "CD"
+    },
+    {
+        "ID": 10,
+        "Nombre": "PERCEPTION",
+        "Imagen": "https://nfrealmusicmerch.com/cdn/shop/products/NF_Perception_Jewel_INSIDE_1000x.jpg?v=1521464574",
+        "Precio": 10,
+        "Tipo": "CD"
+    },
+    {
+        "ID": 11,
+        "Nombre": "BLACK BLUR CREWNER",
+        "Imagen": "https://nfrealmusicmerch.com/cdn/shop/files/NF23_DOUBLEPHOTO_BLACKCREWNECK_FRONT_590x.png?v=1700056393",
+        "Precio": 60,
+        "Categoria": "Sweatshirts",
+        "Color": "Black",
+        "Talla": "XL"
+    },
+    {
+        "ID": 12,
+        "Nombre": "LOST SOUL",
+        "Imagen": "https://nfrealmusicmerch.com/cdn/shop/files/NF24_LOST_SOUL_WHITE_HOODIE_FRONT_590x.png?v=1719602126",
+        "Precio": 50,
+        "Tipo": "Sweatshirts",
+        "Color": "White",
+        "Talla": "L"
+    },
+    {
+        "ID": 13,
+        "Nombre": "HOPE HOODIE",
+        "Imagen": "https://nfrealmusicmerch.com/cdn/shop/files/NF23_HOPELIVEPHOTO_CUSTOMHOODIE_FRONT_590x.png?v=1700056188",
+        "Precio": 60,
+        "Tipo": "Sweatshirts",
+        "Color": "Black",
+        "Talla": "L"
+    },
+    {
+        "ID": 14,
+        "Nombre": "HOPE TOUR 2024 HOODIE",
+        "Imagen": "https://nfrealmusicmerch.com/cdn/shop/files/NF.99005.Mock.Hoodie_590x.png?v=1719518227",
+        "Precio": 55,
+        "Tipo": "Sweatshirts",
+        "Color": "Black",
+        "Talla": "XL"
+    },
+    {
+        "ID": 15,
+        "Nombre": "CEMENT RUNNING ",
+        "Imagen": "https://nfrealmusicmerch.com/cdn/shop/files/NF23_RUNNING_CEMENTSSTEE_BACK_590x.png?v=1700056538",
+        "Precio": 35,
+        "Tipo": "T-Shirts",
+        "Color": "White",
+        "Talla": "s"
+    },
+    {
+        "ID": 16,
+        "Nombre": "VINTAGE LOST SOUL",
+        "Imagen": "https://nfrealmusicmerch.com/cdn/shop/products/NF23_VINTAGEBLACKLOSTSOULPHOTOSSTEE_BACK_590x.png?v=1701386309",
+        "Precio": 40,
+        "Tipo": "T-Shirts",
+        "Color": "Black",
+        "Talla": "L"
+    },
+    {
+        "ID": 17,
+        "Nombre": "REAL DAD",
+        "Imagen": "https://nfrealmusicmerch.com/cdn/shop/files/1EDBD15B-E79A-4DC6-A84F-6AA3D74FF55B_590x.png?v=1704393500",
+        "Precio": 30,
+        "Tipo": "Hats",
+        "Color": "White",
+        "Talla": "N/A"
+    },
+    {
+        "ID": 18,
+        "Nombre": "NF SNAPBACK",
+        "Imagen": "https://nfrealmusicmerch.com/cdn/shop/products/NF_white_on_black_logo_snapback_590x.png?v=1573009716",
+        "Precio": 35,
+        "Tipo": "Hats",
+        "Color": "Black",
+        "Talla": "N/A"
+    },
+    {
+        "ID": 19,
+        "Nombre": "NF DAD HAT",
+        "Imagen": "https://nfrealmusicmerch.com/cdn/shop/files/9921C288-CEDE-4C7B-8020-36ADB59B17CB_590x.png?v=1700096730",
+        "Precio": 30,
+        "Tipo": "Hats",
+        "Color": "Brown",
+        "Talla": "N/A"
+    },
+    {
+        "ID": 20,
+        "Nombre": "CREAM BEANIE",
+        "Imagen": "https://nfrealmusicmerch.com/cdn/shop/products/NF23_CREAMHOPEBEANIE_590x.png?v=1680061871",
+        "Precio": 30,
+        "Tipo": "Hats",
+        "Color": "White",
+        "Talla": "N/A"
+    }
+]

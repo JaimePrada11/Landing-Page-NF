@@ -2,6 +2,7 @@
 
 :root {
     --bg-color-primario: #737061;
+    --bg-color-primario1: #EDECE8;
     --a-color: white;
     --a-color-hover: yellow;
     --color-texto-primario: white;
@@ -11,6 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 html,
@@ -22,7 +24,7 @@ body {
     height: auto;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    background-color: var(--bg-color-primario);
+    background-color: #737061;
     color: var(--color-texto-primario);
 }
 
@@ -35,109 +37,30 @@ ul {
     list-style-type: none;
 }
 
-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #CECCC8;
-
-}
 
 .header__logo {
     width: 5rem;
 }
 
-.header__nav {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-
-}
-
-.header__list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-transform: uppercase;
-}
-
-.header__item {
-    margin: 1.5rem;
-    text-align: center;
-}
-
-.header__link {
-    cursor: pointer;
-    transition-duration: 0.5s;
-}
-
-.header__link:hover {
-    color: var(--a-color-hover);
-    transition-duration: 1s;
-
-}
-
-.header__icon--close {
-    position: absolute;
-    top: 10px;
-    left: 90vw;
-}
-
-.header__menu-toggle {
-    display: none;
-}
-
-.header__menu-icon {
-    display: block;
-    cursor: pointer;
-}
-
-.header__icon {
-    width: 30px;
-}
-
-.header__menu-toggle:checked~.header__nav {
-    display: flex;
-}
-
-.header__menu-toggle:checked~.header__menu-icon .header__icon--open {
-    display: none;
-}
-
-.header__menu-toggle:checked~.header__menu-icon .header__icon--close {
-    display: block;
-}
-
-.header__list .visible {
-    opacity: 1;
-    visibility: visible;
-    transition: 0.5s;
-}
-
 .Home {
     width: 100%;
-    background-color: #CECCC8;
+    height: auto;
+    background-color: #737061;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.Home__logos{
+    display: none;
 }
 
 .Home__img {
-    width: 100vw;
+    width: 70vw;
+    margin-top: 20vw;
     height: fit-content;
-    top: 100%;
-}
-
-.Home__logos {
-    display: none;
 }
 
 
@@ -148,14 +71,10 @@ header {
     position: relative;
     margin: 0;
     padding: 0;
-    background-color: #CECCC8;
+    background-color: #737061;
 
 }
 
-.NF__imagen {
-    max-width: 100%;
-    width: 30%;
-}
 
 .section-a {
     display: flex;
@@ -168,6 +87,7 @@ header {
     width: 90vw;
     border-radius: 20px;
     border-color: transparent;
+    margin-top: 2vw;
 }
 
 .tittle {
@@ -176,14 +96,17 @@ header {
 
 .tittle-t1 {
     font-size: clamp(3.5rem, 4rem, 5rem);
-    margin: auto;
+    margin-top: 6vw;
+    background-color: black;
+    padding: 0px 20px;
 
 }
 
 .tittle-t2 {
     position: absolute;
-    top: 43%;
-    left: 10%;
+    bottom: 42.5%;
+    left: 15%;
+
 }
 
 .texto {
@@ -191,6 +114,11 @@ header {
     text-align: center;
     font-size: clamp(1.2rem, 1.5rem, 2rem);
     margin: 5vw 0;
+    width: 90vw;
+}
+
+.texto-historia{
+    margin-top: 5vw;
 }
 
 .section-b {
@@ -202,15 +130,15 @@ header {
 }
 
 .imagen__nathan {
-    width: 80vw;
+    width: 90vw;
     border-radius: 20px;
 }
 
 .tittle-t3 {
     position: absolute;
-    top: 37%;
-    left: 25%;
-    color: gray;
+    top: 42%;
+    left: 35%;
+    color: #222D2C;
 }
 
 .Hope {
@@ -219,11 +147,10 @@ header {
     align-items: center;
     width: 100vw;
     min-height: auto;
-    background-color: #CECCC8;
 }
 
 .Hope img {
-    width: 90vw;
+    width: 85vw;
     margin-top: 10vw;
     border-radius: 10px;
 }
@@ -249,27 +176,25 @@ header {
 
 .Hope__texto h2 {
     margin-bottom: 5vw;
+    font-weight: lighter;
 }
 
 .Hope__texto a {
-    color: #859B99;
+    background-color: #575447;
     padding: 1rem;
-    border: 1px solid #859B99;
-    border-radius: 10px;
     transition-duration: 1s;
     margin-bottom: 2rem;
     font-size: clamp(1rem, 1.1rem, 1.2rem);
 }
 
 .Hope__texto a:hover {
-    color: white;
-    background-color: #8faaa7;
+    color: black;
+    background-color: #CECCC8;
 }
 
 .Spotify {
     height: auto;
     width: 100vw;
-    background-color: #CECCC8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -291,12 +216,14 @@ header {
     flex-direction: column;
     align-items: center;
     padding: 0;
-    background-color: #CECCC8;
 
 }
 
 .Album h1 {
-    font-size: clamp(3.5rem, 4rem, 5rem);
+    font-size: clamp(3rem, 3.5rem, 4rem);
+    margin-top: 6vw;
+    background-color: black;
+    padding: 0px 20px;
 }
 
 .Album__list {
@@ -321,7 +248,7 @@ header {
     width: 20rem;
     min-width: 15rem;
     height: auto;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .Album__img--cover {
@@ -357,12 +284,14 @@ header {
     align-items: center;
     padding-top: 1.5vw;
     text-transform: uppercase;
-    background: radial-gradient(circle, #CECCC8, #D4D3CE);
 
 }
 
 .Store h1 {
     font-size: clamp(3.5rem, 4rem, 5rem);
+    margin-top: 6vw;
+    background-color: black;
+    padding: 0px 20px;
 
 }
 
@@ -411,10 +340,9 @@ header {
 }
 
 .Store__link {
-    color: #859B99;
+    background-color: #575447;
+    color: white;
     padding: 1rem;
-    border: 1px solid #859B99;
-    border-radius: 10px;
     transition-duration: 1s;
     margin-bottom: 2rem;
     font-size: clamp(1rem, 1.1rem, 1.2rem);
@@ -422,8 +350,8 @@ header {
 }
 
 .Store__link:hover {
-    background-color: #859B99;
-    color: white;
+    color: black;
+    background-color: #CECCC8;
 }
 
 .Tour {
@@ -434,33 +362,33 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: #D3D2CD;
 }
 
 .Tour__texto h1 {
     margin: 0;
-    font-size: clamp(3.5rem, 4rem, 5rem);
+    font-size: clamp(3rem, 3.2rem, 3.5rem);
+    margin-bottom: 1rem;
 }
 
 .Tour__texto p {
     font-size: clamp(1rem, 1.1rem, 1.2rem);
     width: 80%;
     margin: auto;
-    margin-bottom: 6vw;
+    margin-bottom: 5vw;
+    text-transform: uppercase;
 }
 
 .Tour__texto a {
-    color: #859B99;
+    background-color: #575447;
+    color: white;
     font-size: clamp(1rem, 1.1rem, 1.2rem);
-    margin-top: 1.5rem;
     padding: 0.5rem;
-    border: 1px solid #313a39;
     transition-duration: 1s;
 }
 
 .Tour__texto a:hover {
-    background-color: #859B99;
-    color: white;
+    color: black;
+    background-color: #CECCC8;
 }
 
 
@@ -469,10 +397,8 @@ header {
     margin: 4rem auto;
     padding: 1rem;
     border-radius: 8px;
-    box-shadow: 0 3px 10px #859B99;
+    box-shadow: 0 0px 10px 5px #575447;
     font-size: clamp(1rem, 1.1rem, 1.2rem);
-
-
 }
 
 .registro label {
@@ -501,22 +427,39 @@ header {
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
-    font-size: 1vw;
+    font-size: clamp(1rem, 1.1rem, 1.2rem);
+    transition:  0.5s ease;
 }
 
 .submit-btn:hover {
-    background-color: #D4D3CE;
+    background-color: 575447;
     cursor: pointer;
 }
 
+.hidden {
+    display: none;
+}
+.thank-you-message {
+    text-transform:uppercase;
+    font-size: 1.2em;
+    margin: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.thank-you-message p {
+    margin-top: 3vw;
+    width: 70%;
+}
+
 footer {
-    background-color: #767363;
-    background-size: contain;
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-size: clamp(1rem, 1.1rem, 1.2rem);
 }
 
@@ -580,41 +523,52 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
-    .Home__img {
-        width: 50vw;
-        margin: auto;
+    
+    .Home img {
+        margin-top: 2vw;
+        width: 45vw;
     }
 
     .NF {
+        min-height: 100vh;
         height: auto;
+        background-color: #737061;
     }
 
     .imagen__bio {
-        width: 40vw;
+        width: 35vw;
         height: auto;
         border-radius: 0px;
         left: 65vw;
+        border-radius: 15px;
         position: absolute;
-        margin: 2vw 0vw;
+        line-height: 3vw;
+    }
+    .tittle-t1{
+        position: relative;
+        top: 50px;
     }
 
     .tittle-t2 {
         position: absolute;
-        top: 100%;
-        left: 70%
+        top: 3%;
+        left: 70%;
+        font-size: 3rem;
     }
 
     .texto-historia {
         width: 50%;
         position: relative;
-        left: -20%
+        left: -15%;
+        font-weight: lighter;
     }
 
     .imagen__nathan {
-        width: 20vw;
-        left: 2%;
+        width: 22.5rem;
+        left: -25px;
+        top: -25px;
         position: absolute;
-        border-radius: 0px;
+        border-radius: 10px;
     }
 
     .texto-nathan {
@@ -624,8 +578,9 @@ footer {
     }
 
     .tittle-t3 {
-        left: 12%;
-        top: -7%;
+        left: 15%;
+        top: -15%;
+        font-size: 3rem;
     }
 
     .Hope {
@@ -644,22 +599,30 @@ footer {
         border-radius: 15px;
         box-shadow: 0 0 15px 5px rgba(90, 106, 106, 0.9);
     }
+
     .Spotify {
         height: 100vh;
         width: 100vw;
     }
+
     .Spotify iframe {
         width: 50vw;
         height: 50vh;
     }
-    
-.Tour__texto a {
-    padding: 0.5rem;
-    border: 1px solid #313a39;
-    border-radius: 10px;
-}
+    .Tour h1{
+        margin-top: 6vw;
+    }
+    .Tour p{
+        width: 50%;
+    }
 
-.registro {
-    width: 40%;
-}
+    .Tour__texto a {
+        padding: 0.5rem;
+        border: 1px solid #313a39;
+        border-radius: 10px;
+    }
+
+    .registro {
+        width: 40%;
+    }
 }

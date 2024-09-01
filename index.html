@@ -5,35 +5,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NF - HOME</title>
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="icon" href="/Multimedia/Logo NF.png">
+    <link rel="stylesheet" href="./Menu.css">
+    
+    <link rel="icon" href="./Multimedia/Logo NF.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="estilos.css">
 
 
 </head>
 
 <body>
-    <header>
-        <img class="header__logo" src="/Multimedia/Logo NF.png" alt="Logo NF">
-        <nav class="header__nav">
-            <ul class="header__list">
-                <li class="header__item"><a href="#Home" class="header__link">Home</a></li>
-                <li class="header__item"><a href="#NF" class="header__link">NF</a></li>
-                <li class="header__item"><a href="#Album" class="header__link">Album</a></li>
-                <li class="header__item"><a href="#Store" class="header__link">Store</a></li>
-                <li class="header__item"><a href="#Tour" class="header__link">Tour</a></li>
-            </ul>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo"><img class="header__logo" src="./Multimedia/Logo NF.png" alt="Logo NF"></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#Home" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#NF" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>NF</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#Album" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Album</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#Store" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Store</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#Tour" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Tour</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-large-line"></i>
+                </div>
+
+                <div class="nav__social">
+                    <a target="_blank" href="https://www.facebook.com/nfrealmusic"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/nfrealmusic/"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a target="_blank" href="https://x.com/nfrealmusic"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
         </nav>
-        <input type="checkbox" id="menu-toggle" class="header__menu-toggle" />
-        <label for="menu-toggle" class="header__menu-icon">
-            <img src="https://static-mh.content.disney.io/matterhorn/assets/starwars/navigation/SW_Burger_White-09a4d3d1e252.svg"
-                alt="Abrir menú" class="header__icon header__icon--open">
-            <img src="https://static-mh.content.disney.io/matterhorn/assets/starwars/navigation/SW_Burger_Close_White-a5617cc36d88.svg"
-                alt="Cerrar menú" class="header__icon header__icon--close">
-        </label>
-        </label>
     </header>
 
     <main>
@@ -50,17 +93,23 @@
 
             <div class="NF__section section-a">
                 <h1 class="tittle tittle-t1">HISTORIA</h1>
-                <img class="NF__imagen imagen__bio" src="./Multimedia/Bio.jpg" alt="nf">                
+                <img class="NF__imagen imagen__bio" src="./Multimedia/Bio.jpg" alt="nf">
                 <h1 class="tittle tittle-t2">NATHAN</h1>
 
-                <p class="texto texto-historia">Nathan John Feuerstein, better known as NF, is an American rapper, singer, and songwriter. He has released five studio albums: Mansion, Therapy Session, Perception, which debuted at No. 1 on the Billboard 200 charts, The Search, and HOPE. In 2021, he released his first mixtape titled CLOUDS (THE MIXTAPE).
+                <p class="texto texto-historia">Nathan John Feuerstein, better known as NF, is an American rapper,
+                    singer, and songwriter. He has released five studio albums: Mansion, Therapy Session, Perception,
+                    which debuted at No. 1 on the Billboard 200 charts, The Search, and HOPE. In 2021, he released his
+                    first mixtape titled CLOUDS (THE MIXTAPE).
                 </p>
             </div>
             <div class="NF__section section-b">
-                <img class="NF__imagen imagen__nathan" src="./Multimedia/NF Familia.jpg" alt="nf" >
+                <img class="NF__imagen imagen__nathan" src="./Multimedia/NF Familia.jpg" alt="nf">
                 <div class="NF__texto-nathan">
                     <h1 class="tittle tittle-t3">FEUERSTEIN</h1>
-                    <p class="texto texto-nathan">He has credited Eminem as his main influence in hip hop, stating that at one point, that was all he listened to. He is often compared to Eminem because of his voice, as both NF and the rapper share a similar vocal tone, though they are indeed distinct. NF's style has also been compared to that of the rapper Logic.
+                    <p class="texto texto-nathan">He has credited Eminem as his main influence in hip hop, stating that
+                        at one point, that was all he listened to. He is often compared to Eminem because of his voice,
+                        as both NF and the rapper share a similar vocal tone, though they are indeed distinct. NF's
+                        style has also been compared to that of the rapper Logic.
                     </p>
                 </div>
             </div>
@@ -73,7 +122,7 @@
 
                 <div class="Hope__texto">
                     <h2>AVAILABLE NOW</h2>
-                    <h2 class="enlace"> <a href="/stream.html" target="_blank" > STREAM / DOWNLOAD </a></h2>
+                    <h2 class="enlace"> <a href="./stream.html" target="_blank"> STREAM / DOWNLOAD </a></h2>
                 </div>
             </div>
         </section>
@@ -189,26 +238,27 @@
                     </a> </li>
 
             </ul>
-                <a class="Store__link" href="https://nfrealmusicmerch.com/" target="_blank" >Official Store</a> 
-        
+            <a class="Store__link" href="./Tienda.html" target="_blank">Official Store</a>
+
         </section>
 
         <section id="Tour" class="Tour">
             <div class="Tour__texto">
                 <h1>NF | HOPE TOUR 2024 </h1>
-                <p> Lo sentimos, no hay espectáculos disponibles en este momento. Para recibir notificaciones sobre las
-                    nuevas fechas de la gira cuando se anuncien, haga clic en el enlace RSVP que aparece a continuación.
+                <p> Sorry, there are no shows currently available. To be notified of new tour dates when they are
+                    announced, click the RSVP link below.
+
                 </p>
                 <a href="https://www.bandsintown.com/artist-subscribe/11969355?utm_campaign=track&utm_medium=web&app_id=umg_capitol_nf&affil_code=umg_us&utm_source=public_api&came_from=267&spn=0&signature=ZZ31a3fbc06dd6589d548f372dcd694503276f7789caa63a412d4915fac896aade"
-                        target="_blank"> RSVP</a>
+                    target="_blank"> RSVP</a>
 
             </div>
 
-            <form action="" class="registro">
-                <label for="email">Correo Electrónico:</label><br>
+            <form action="" class="registro" id ="registroFormulario">
+                <label for="email">EMAIL</label><br>
                 <input type="email" id="email" name="email" required class="input-field"><br><br>
 
-                <label for="pais">País:</label><br>
+                <label for="pais">CHOOSE COUNTRY</label><br>
                 <select id="pais" name="pais" required class="input-field">
                     <option value="">Seleccione un país</option>
                     <option value="AR">Argentina</option>
@@ -219,6 +269,11 @@
 
                 <input type="submit" value="Suscribirse" class="submit-btn">
             </form>
+
+            <div id="thankYouMessage" class="hidden thank-you-message">
+                <h2>Thank you for signing up!</h2>
+                <p>You're on the list! Thanks for signing up. Keep an eye out for fun things like news, special offers, and promotions!</p>
+            </div>
 
         </section>
 
@@ -251,6 +306,7 @@
     </div>
 
 
+    <script src="./main.js"></script>
 
 </body>
 
